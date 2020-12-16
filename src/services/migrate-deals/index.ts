@@ -1,4 +1,4 @@
-import { dealDao } from '../entities/deal'
+import { dealDao } from '../../entities/deal'
 import BlingClient from './bling/client'
 import CreateBlingDeals from './bling/create-deals'
 import MigrateDealsController from './controller'

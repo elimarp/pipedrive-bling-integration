@@ -1,8 +1,8 @@
 import Axios from 'axios'
-import env from '../../configs/environment'
+import env from '../../../configs/environment'
 import * as js2xmlparser from 'js2xmlparser'
 import qs from 'qs'
-import { IPipedriveDeal } from '../../entities/deal'
+import { IPipedriveDeal } from '../../../entities/deal'
 
 interface ICreateDealResponse {
   blingNumber: number

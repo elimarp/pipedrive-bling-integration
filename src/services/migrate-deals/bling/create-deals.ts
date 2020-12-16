@@ -1,5 +1,5 @@
-import { IPipedriveDeal } from '../../entities/deal'
-import DealDao from '../../entities/deal/dao'
+import { IPipedriveDeal } from '../../../entities/deal'
+import DealDao from '../../../entities/deal/dao'
 import BlingClient from './client'
 
 export default class CreateBlingDeals {

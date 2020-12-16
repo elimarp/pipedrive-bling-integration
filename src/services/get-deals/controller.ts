@@ -1,5 +1,5 @@
 import { Request, Response } from 'express'
-import DealDao from '../entities/deal/dao'
+import DealDao from '../../entities/deal/dao'
 
 export default class GetDealsController {
   constructor (

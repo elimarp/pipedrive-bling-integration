@@ -2,7 +2,7 @@ import env from './configs/environment'
 import app from './app'
 import { CronJob } from 'cron'
 import mongoose from 'mongoose'
-import { migrateDealsController } from './migrate-deals'
+import { migrateDealsController } from './services/migrate-deals'
 
 const PORT = env.locals.PORT || 3000
 

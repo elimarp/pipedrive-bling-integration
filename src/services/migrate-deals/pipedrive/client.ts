@@ -1,6 +1,6 @@
 import Axios from 'axios'
-import env from '../../configs/environment'
-import { IPipedriveDeal } from '../../entities/deal'
+import env from '../../../configs/environment'
+import { IPipedriveDeal } from '../../../entities/deal'
 
 export default class PipedriveClient {
   async getDeals (): Promise<IPipedriveDeal[]> {

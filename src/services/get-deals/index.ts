@@ -1,4 +1,4 @@
-import { dealDao } from '../entities/deal'
+import { dealDao } from '../../entities/deal'
 import GetDealsController from './controller'
 
 const getDealsController = new GetDealsController(dealDao)

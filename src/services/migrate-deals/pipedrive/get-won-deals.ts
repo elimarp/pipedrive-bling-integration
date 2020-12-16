@@ -1,4 +1,4 @@
-import { IPipedriveDeal } from '../../entities/deal'
+import { IPipedriveDeal } from '../../../entities/deal'
 import PipedriveClient from './client'
 
 export default class GetPipedriveWonDeals {
